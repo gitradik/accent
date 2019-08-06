@@ -3,22 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="597fb643-9e4d-48fb-9119-71cf578909cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ovitta-logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/ovitta-logo-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/contact-form-open/contact-form-open.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/contact-form-open/contact-form-open.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll-media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/footer/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/video-blog/video-blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/video-blog/video-blog.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/warning/warning.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/warning/warning.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/data.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/data.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.sass" afterDir="false" />
@@ -35,30 +24,30 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/home/components/navbar/navbar.php">
+        <entry file="file://$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/data.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="18" selection-start-line="2" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="304">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/home/components/navbar/navbar.sass">
+        <entry file="file://$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="563">
+              <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll-media.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -66,15 +55,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+            <state relative-caret-position="152">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/home/components/navbar/navbar.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -104,6 +88,7 @@
       <find>css?v=1</find>
       <find>navbarSupportedContent</find>
       <find>js?v=1</find>
+      <find>max-w</find>
     </findStrings>
     <replaceStrings>
       <replace>=</replace>
@@ -159,7 +144,6 @@
         <option value="$PROJECT_DIR$/pages/home/components/contact-form-open/contact-form-open.php" />
         <option value="$PROJECT_DIR$/pages/home/components/footer/footer-media.sass" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll-media.sass" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/pages/home/components/useful/useful.php" />
         <option value="$PROJECT_DIR$/pages/home/components/footer/footer.php" />
@@ -171,13 +155,14 @@
         <option value="/tmp/fz3temp-2/header.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="/tmp/fz3temp-2/footer.php" />
-        <option value="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass" />
-        <option value="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php" />
         <option value="$PROJECT_DIR$/pages/home/components/navbar/navbar.js" />
         <option value="$PROJECT_DIR$/pages/home/components/navbar/navbar.php" />
         <option value="$PROJECT_DIR$/style/data.sass" />
-        <option value="$PROJECT_DIR$/style/main.sass" />
         <option value="$PROJECT_DIR$/pages/home/components/navbar/navbar.sass" />
+        <option value="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll-media.sass" />
+        <option value="$PROJECT_DIR$/style/main.sass" />
+        <option value="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php" />
+        <option value="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass" />
       </list>
     </option>
   </component>
@@ -199,11 +184,6 @@
             <path>
               <item name="accent" type="b2602c69:ProjectViewProjectNode" />
               <item name="accent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="accent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="accent" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="accent" type="b2602c69:ProjectViewProjectNode" />
@@ -234,14 +214,6 @@
             <path>
               <item name="accent" type="b2602c69:ProjectViewProjectNode" />
               <item name="accent" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="navbar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="accent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="accent" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -257,7 +229,7 @@
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -303,18 +275,19 @@
       <workItem from="1564988640871" duration="29000" />
       <workItem from="1564992906362" duration="2512000" />
       <workItem from="1565077429376" duration="595000" />
-      <workItem from="1565079203008" duration="1270000" />
+      <workItem from="1565079203008" duration="1412000" />
+      <workItem from="1565080617695" duration="1434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46699000" />
+    <option name="totallyTimeSpent" value="48275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="1932" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2366453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23931624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -327,8 +300,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32815966" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946582" weight="0.32707182" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005342" side_tool="true" weight="0.32815966" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -562,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll-media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="104" column="30" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/home/components/useful/useful.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -641,23 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/home/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -665,15 +614,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/home.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/components/navbar/navbar.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/home/components/navbar/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
+        <state relative-caret-position="1083">
           <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
         </state>
       </provider>
@@ -685,17 +628,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/main.sass">
+    <entry file="file://$PROJECT_DIR$/pages/home/components/navbar/navbar.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        <state relative-caret-position="392">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/components/navbar/navbar.sass">
+    <entry file="file://$PROJECT_DIR$/pages/home/components/navbar/navbar.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/home.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll-media.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="399">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
         </state>
       </provider>
     </entry>

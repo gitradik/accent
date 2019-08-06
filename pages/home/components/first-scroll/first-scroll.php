@@ -6,18 +6,31 @@
      style="background-image: url('<?= get_template_directory_uri(); ?>/images/photo_2019-08-05_09-16-33.jpg')"
 >
     <div class="bg"></div>
-    <div class="container">
-        <div class="row justify-content-md-end">
-            <div class="col-md-12 col-xl-8">
-                <div class="t">
-                    <p>Бесплатный онлайн интенсив<br>
-                        7 августа в 19:00 Киев / МСК</p>
-                    <h1>КАК <span>ПЕРЕЗАГРУЗИТЬ</span> МЫШЛЕНИЕ И ДОСТИЧЬ СВОИХ ЦЕЛЕЙ</h1>
-                    <h2>2 часа, которые перевернут твое представление о создании устойчивых изменений в жизни</h2>
+    <div class="container-fluid ct">
+        <div class="row justify-content-md-start">
+            <div class="col-md-12 col-xl-5 pl-md-5">
+                <div class="t ml-md-5">
+                    <h1>Тренинг "Акцент" - трех дневный тренинг в закрытом формате изменит твое мышление!</h1>
+                </div>
+            </div>
+            <div class="col-md-12 pr-md-5 d-flex justify-content-md-end">
+                <div class="t-name mr-md-5">
+                    <div class="d-inline-block">
+                        <h4>НИКОЛАЙ САПСАН</h4>
+                        <h5> Основатель тренинговой компании OVITTA,<br>
+
+                            бизнес-тренер компании, коуч</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mt-md-5 mb-md-5 pt-md-5 pb-md-5 d-flex align-items-center justify-content-center">
+                <div class="t t-sub">
+                    <h3>23-25 августа, КИЕВ стартуем!</h3>
+                    <p class="m-0">Осталось 7 свободных мест, успей записаться!</p>
                 </div>
                 <div class="order">
                     <button data-toggle="modal" data-target="#formModal"
-                            onclick="onClickFormModal('Записаться на интенсив', 'formModalLongTitle')">записаться на интенсив</button>
+                            onclick="onClickFormModal('Записаться на интенсив', 'formModalLongTitle')">Задай вопрос консультанту</button>
                 </div>
             </div>
         </div>

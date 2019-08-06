@@ -8,17 +8,37 @@
   display: flex;
   align-items: center;
 }
-.first-scroll .container {
+.first-scroll .ct {
   position: relative;
   z-index: 2;
-}
-.first-scroll .order {
-  margin-top: 30px;
 }
 .first-scroll .t p {
   font-style: inherit;
   font-family: "Roboto", sans-serif !important;
   font-weight: 500;
+}
+.first-scroll .t-name {
+  display: flex;
+}
+.first-scroll .t-name h4 {
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+}
+.first-scroll .t-name h5 {
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+}
+.first-scroll .t-sub {
+  width: auto;
+}
+.first-scroll .t-sub h3 {
+  color: white;
+}
+.first-scroll .t-sub p {
+  color: white;
+  margin-bottom: 0;
 }
 
 .cos {
@@ -30,9 +50,6 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .first-scroll .order {
-    margin-top: 55px;
-  }
   .first-scroll .t h1 {
     margin-bottom: 0;
   }
@@ -44,8 +61,14 @@
     font-weight: 300;
     margin-bottom: 25px;
   }
+  .first-scroll .t-sub {
+    margin-bottom: 0;
+  }
 }
 @media only screen and (min-width: 1200px) {
+  .first-scroll .order {
+    margin-left: 20px;
+  }
   .first-scroll .t h1 {
     line-height: 52px;
     letter-spacing: 2px;
