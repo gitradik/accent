@@ -1,0 +1,110 @@
+.first-scroll {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+}
+.first-scroll .container {
+  position: relative;
+  z-index: 2;
+}
+.first-scroll .order {
+  margin-top: 30px;
+}
+.first-scroll .t p {
+  font-style: inherit;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 500;
+}
+
+.cos {
+  position: absolute;
+  bottom: 1.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+}
+
+@media only screen and (min-width: 992px) {
+  .first-scroll .order {
+    margin-top: 55px;
+  }
+  .first-scroll .t h1 {
+    margin-bottom: 0;
+  }
+  .first-scroll .t h2 {
+    margin-bottom: 0;
+  }
+  .first-scroll .t p {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .first-scroll .t h1 {
+    line-height: 52px;
+    letter-spacing: 2px;
+  }
+  .first-scroll .t h2 {
+    line-height: 45px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .first-scroll .t h1 {
+    line-height: 52px;
+    letter-spacing: 2px;
+    font-size: 52px;
+  }
+  .first-scroll .t h2 {
+    line-height: 45px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .first-scroll .t {
+    padding-top: 50px;
+  }
+  .first-scroll .t h1 {
+    letter-spacing: 2px;
+    font-size: 38px;
+  }
+  .first-scroll .t h2 {
+    line-height: 45px;
+    font-size: 24px;
+  }
+  .first-scroll .t p {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .first-scroll .order button {
+    font-size: 14px;
+  }
+  .first-scroll .t {
+    padding-top: 50px;
+  }
+  .first-scroll .t h1 {
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 26px;
+  }
+  .first-scroll .t h2 {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .first-scroll .t p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .first-scroll {
+    background-position: right center;
+  }
+}
+
+/*# sourceMappingURL=first-scroll.css.map */

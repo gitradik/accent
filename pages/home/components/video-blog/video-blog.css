@@ -1,0 +1,20 @@
+.video-blog {
+  padding: 30px 0;
+}
+.video-blog .t {
+  margin-bottom: 25px;
+}
+.video-blog .vid {
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .video-blog .t {
+    margin-bottom: 50px;
+  }
+}
+
+/*# sourceMappingURL=video-blog.css.map */

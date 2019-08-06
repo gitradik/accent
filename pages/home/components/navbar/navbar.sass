@@ -1,0 +1,74 @@
+@import "../../../../style/data"
+
+.navbar
+  position: fixed
+  width: 100%
+  z-index: 998
+  transition: .2s
+  background-color: transparent
+
+  .navbar-brand
+    padding: 0
+
+    img
+      height: auto
+      max-width: 150px
+
+  .navbar-toggler
+    outline: none
+    border-color: rgba(255,255,255,.7)
+    border-radius: 2px
+
+  .navbar-nav
+
+    .nav-item
+
+      .nav-link
+        border-radius: 2px
+        font-size: 16px
+        transition: .2s
+        color: white
+        border: 1px solid transparent
+
+        &:hover
+          transition: .2s
+          color: rgba(255,255,255,.5)
+          border-color: rgba(255,255,255,.3)
+
+    .nav-order
+
+      .nav-link
+        outline: none
+        padding: 10px 15px
+        border-radius: 3px
+        font-weight: 700
+        transition: .2s
+        background-color: $yellow_light
+        color: $text_button_color
+
+        &:hover
+          transition: .2s
+          color: $text_button_color_hover
+          background-color: $yellow_hover
+
+.navbar-in
+  transition: .2s
+  background-color: white
+  box-shadow: $box_shadow_middle
+
+  .navbar-nav
+
+    .nav-item
+
+      .nav-link
+        transition: .2s
+        color: black
+
+    .nav-order
+
+      .nav-link
+        color: $text_button_color
+
+
+
+@import "navbar-media"

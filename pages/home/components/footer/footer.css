@@ -1,0 +1,37 @@
+footer {
+  background-color: black;
+  padding: 30px 0;
+}
+footer .t {
+  margin-top: 50px;
+}
+footer .t p {
+  color: white;
+  font-weight: 900;
+}
+footer img {
+  height: auto;
+  max-width: 200px;
+  margin-bottom: 50px;
+}
+footer a {
+  text-decoration: none;
+  outline: none;
+  font-size: 26px;
+  line-height: 1.23;
+  transition: 0.2s;
+  color: white;
+}
+footer a:hover {
+  text-decoration: none;
+  transition: 0.2s;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 991px) {
+  footer a {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

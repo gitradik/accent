@@ -1,0 +1,118 @@
+.participate {
+  padding: 60px 0;
+  background-color: #f3f3f3;
+}
+.participate .t {
+  text-align: left;
+}
+.participate .t h4 {
+  font-size: 24px;
+}
+.participate .t h4 span {
+  font-size: 22px;
+}
+
+.part-offer {
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.part-offer .t {
+  position: relative;
+  z-index: 2;
+  text-align: left;
+}
+.part-offer .t h3 {
+  font-size: 42px;
+  font-weight: 900;
+  color: whitesmoke;
+}
+.part-offer .t h3 span {
+  font-size: 38px;
+  font-weight: 300;
+  font-family: "TT Norms Light", Arial, sans-serif;
+}
+
+.part-offer-2 {
+  background-attachment: fixed;
+}
+.part-offer-2 .t {
+  background-color: white;
+  padding: 50px;
+  border-radius: 2px;
+}
+.part-offer-2 .t h3 {
+  color: #2e2e2e;
+  display: block;
+  margin-bottom: 40px;
+}
+.part-offer-2 .t h3 span {
+  padding-top: 40px;
+  display: block;
+}
+.part-offer-2 .t p {
+  color: #2e2e2e;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.part-offer-2 .t p:last-child {
+  margin-bottom: 0;
+}
+
+.part-offer-3 {
+  align-items: flex-end;
+  background-attachment: fixed;
+  background-position: center;
+}
+.part-offer-3 .t {
+  background-color: black;
+  padding: 50px;
+  border-radius: 2px;
+}
+.part-offer-3 .t h3 {
+  color: whitesmoke;
+  display: block;
+  margin-bottom: 40px;
+}
+.part-offer-3 .t p {
+  color: white;
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.part-offer-3 .t p:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .part-offer-3 {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .part-offer-3 {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .part-offer .t {
+    padding: 25px;
+  }
+  .part-offer .t h3 {
+    font-size: 28px;
+  }
+  .part-offer .t h3 span {
+    font-size: 24px;
+    font-weight: 900;
+  }
+}
+
+/*# sourceMappingURL=participate.css.map */

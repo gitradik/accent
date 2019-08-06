@@ -1,0 +1,146 @@
+.whoneeds {
+  padding: 30px 0;
+}
+.whoneeds .t p {
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+  margin-top: 20px;
+}
+.whoneeds .whoneeds-tabs {
+  margin-top: 50px;
+}
+.whoneeds .whoneeds-tabs .tab-content {
+  margin-top: 30px;
+}
+.whoneeds .whoneeds-tabs .tab-content .tab-pane .tab-who {
+  display: flex;
+  align-items: center;
+}
+.whoneeds .whoneeds-tabs .tab-content .tab-pane .tab-who img {
+  height: auto;
+  max-width: 520px;
+  margin-right: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.whoneeds .whoneeds-tabs .tab-content .tab-pane .tab-who .t h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.whoneeds .whoneeds-tabs .tab-content .tab-pane .tab-who .t p {
+  text-align: left;
+  color: #2e2e2e;
+  font-size: 22px;
+  font-weight: 200;
+}
+.whoneeds .whoneeds-tabs .nav-tabs {
+  justify-content: center;
+}
+.whoneeds .whoneeds-tabs .nav-tabs .nav-item img {
+  height: auto;
+  max-width: 15px;
+  transform: rotateZ(90deg);
+  margin-left: 5px;
+}
+.whoneeds .whoneeds-tabs .nav-tabs .nav-link {
+  padding: 18px 20px;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #2e2e2e;
+  font-size: 16px;
+  border: none;
+  transition: 0.2s;
+  border-bottom: 2px solid transparent;
+  font-weight: 300;
+}
+.whoneeds .whoneeds-tabs .nav-tabs .active {
+  transition: 0.2s;
+  font-weight: 700;
+  border-color: #225bff;
+}
+.whoneeds .whoheeds-pluses {
+  margin: 30px auto;
+}
+.whoneeds .whoheeds-pluses .pluses-item {
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+.whoneeds .whoheeds-pluses .pluses-item .t {
+  text-align: left;
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  max-height: 0;
+  transform: translateX(1000px);
+}
+.whoneeds .whoheeds-pluses .pluses-item button {
+  position: relative;
+  z-index: 3;
+  border: 0;
+  padding: 27px 0;
+  text-decoration: none;
+  outline: none;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  transition: 0.2s;
+  background-color: white;
+}
+.whoneeds .whoheeds-pluses .pluses-item button span {
+  color: #510f4e;
+}
+.whoneeds .whoheeds-pluses .pluses-item button i {
+  color: #3949AB;
+}
+.whoneeds .whoheeds-pluses .pluses-item .t-active {
+  transition: 0.3s;
+  max-height: 100%;
+  padding: 30px 0;
+  transform: translate(0);
+}
+.whoneeds .whoheeds-pluses .pluses-item .btn-active {
+  transition: 0.2s;
+  padding: 10px 15px;
+  background-color: #cce5ff;
+}
+.whoneeds .whoheeds-pluses .pluses-item .btn-active i {
+  color: #b8b7b2;
+}
+
+@media only screen and (max-width: 991px) {
+  .whoneeds .whoneeds-tabs .tab-content .tab-pane .tab-who {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .whoneeds .whoneeds-tabs .tab-content .tab-pane .tab-who .t {
+    max-width: 600px;
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .whoneeds .whoheeds-pluses .pluses-item button {
+    font-size: 20px;
+  }
+  .whoneeds .whoheeds-pluses .pluses-item .t-plus h4 {
+    font-size: 20px;
+  }
+  .whoneeds .whoheeds-pluses .pluses-item .t-plus p {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=whoneeds.css.map */
