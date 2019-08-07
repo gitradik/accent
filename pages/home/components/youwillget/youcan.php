@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="col-md-4"></div>
-            <div class="col-sm-6 d-flex align-items-center justify-content-center">
+            <div class="col-lg-6 d-flex align-items-center justify-content-center">
                 <div class="youcan-card">
                     <img src="<?= get_template_directory_uri(); ?>/images/racing.svg">
                     <div class="t">
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 d-flex align-items-center justify-content-center">
+            <div class="col-lg-6 d-flex align-items-center justify-content-center">
                 <div class="youcan-card">
                     <img src="<?= get_template_directory_uri(); ?>/images/line-graph.svg">
                     <div class="t">

@@ -97,8 +97,15 @@
   .first-scroll .t h2 {
     line-height: 45px;
   }
+  .first-scroll .t-name {
+    text-align: center;
+    margin-top: 40px;
+  }
 }
 @media only screen and (max-width: 991px) {
+  .first-scroll .order {
+    margin-top: 30px;
+  }
   .first-scroll .t {
     padding-top: 50px;
   }
@@ -133,6 +140,12 @@
   .first-scroll .t p {
     font-size: 18px;
     line-height: 24px;
+  }
+  .first-scroll .t-name h4 {
+    font-size: 22px;
+  }
+  .first-scroll .t-name h5 {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 575px) {
