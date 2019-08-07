@@ -50,7 +50,9 @@
             <div class="col-12">
                 <div class="order">
                     <button data-toggle="modal" data-target="#formModal"
-                            onclick="onClickFormModal('Зарегистрироватсья на интенсив', 'formModalLongTitle')">Зарегистрироватсья на интенсив</button>
+                            onclick="onClickFormModal('Зарегистрироватсья на интенсив', 'formModalLongTitle')">
+                        Зарегистрироватсья на интенсив
+                    </button>
                 </div>
             </div>
         </div>
