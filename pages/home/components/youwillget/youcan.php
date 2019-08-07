@@ -1,68 +1,63 @@
 <style>
-    <?= include 'youcan.css'; ?>
+    <?= include 'youwillget.css'; ?>
 </style>
 
-<div class="youcan" style="background-color: white">
+<div class="youwillget" style="background-image: url('<?= get_template_directory_uri(); ?>/images/subtle_grunge.png')">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 pb-5">
+        <div class="row">
+            <div class="col-md-6 pb-5">
                 <div class="t">
-                    <h3>Ты получишь максимальную пользу<br>
-                        от интенсива, если:</h3>
+                    <h3>В чем польза тренинга?</h3>
                 </div>
             </div>
+            <div class="col-md-4"></div>
             <div class="col-sm-6 d-flex align-items-center justify-content-center">
                 <div class="youcan-card">
-                    <img src="<?= get_template_directory_uri(); ?>/images/youcan/Layer_4.svg">
+                    <img src="<?= get_template_directory_uri(); ?>/images/racing.svg">
                     <div class="t">
-                        <p>Пришло время посмотреть, куда двигаться дальше</p>
+                        <h4>Быстрые результаты</h4>
+                        <p>Тренер владеет годами апробированной методикой, за счет которой вы получаете обратную связь из внешнего мира – начинаете видеть себя со стороны. Ситуации, смоделированные на тренинге, дают вам возможность мгновенно понимать, что у вас происходит в жизни, понимая ситуацию и видя решения.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 d-flex align-items-center justify-content-center">
                 <div class="youcan-card">
-                    <img src="<?= get_template_directory_uri(); ?>/images/youcan/Tilda_Icons_30_system_reload.svg">
+                    <img src="<?= get_template_directory_uri(); ?>/images/line-graph.svg">
                     <div class="t">
-                        <p>Хочется обновить устаревшие программы</p>
+                        <h4>Эффективные решения</h4>
+                        <p>Пройдя тренинг, вы получаете возможность прекратить безрезультатные попытки решить проблемы, которые казались нерешаемыми. Вы находите неожиданные для себя выходы из затруднительных положений, прекращаете тратить силы и энергию на внутреннее сопротивление, переживаете состояние принятия, удивляясь, как просто можно достигать результатов без борьбы.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                <div class="youcan-card">
-                    <img src="<?= get_template_directory_uri(); ?>/images/youcan/Tilda_Icons_37_Finance_technologies_growth.svg">
-                    <div class="t">
-                        <p>Тебе мало полученных результатов</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                <div class="youcan-card">
-                    <img src="<?= get_template_directory_uri(); ?>/images/youcan/Tilda_Icons_39_IT_effective.svg">
-                    <div class="t">
-                        <p>Важно повысить собственную эффективность</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                <div class="youcan-card">
-                    <img src="<?= get_template_directory_uri(); ?>/images/youcan/2web_target.svg">
-                    <div class="t">
-                        <p>Хочется от жизни большего</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                <div class="youcan-card">
-                    <img src="<?= get_template_directory_uri(); ?>/images/youcan/Tilda_Icons_45_quest_hard.svg">
-                    <div class="t">
-                        <p>Выявить, что тебя ограничивает</p>
-                    </div>
+        </div>
+    </div>
+</div>
+<div class="youwillget" style="background-image: url('<?= get_template_directory_uri(); ?>/images/subtle_grunge.png')">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 pb-5">
+                <div class="t">
+                    <h3>Могут ли изменения к лучшему происходить быстро?</h3>
                 </div>
             </div>
             <div class="col-12">
-                <div class="order">
-                    <button data-toggle="modal" data-target="#formModal"
-                            onclick="onClickFormModal('Зарегистрироваться на интенсив', 'formModalLongTitle')">Зарегистрироватсья на интенсив</button>
+                <div class="t">
+                    <h6>Порой люди надеются решить свои проблемы с помощью чудодейственных рецептов, влиятельных экспертов, длительных тренингов. Но изменения начинаются изнутри, а значит только вы можете что-то изменить. Сколько для это нужно времени? Мы способствуем изменениям за 3 дня.</h6>
+                </div>
+            </div>
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <hr>
+            </div>
+            <div class="col-md-6"  style="border-right: 1px solid #ccc;">
+                <div class="t text-right">
+                    <h5 class="mb-3 mt-3">Что от вас?</h5>
+                    <p style="color: black; font-size: 16px;">Желание работать на результат</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="t text-left">
+                    <h5 class="mb-3 mt-3">Что от нас?</h5>
+                    <p style="color: black; font-size: 16px;">Эффективная технология изменений</p>
                 </div>
             </div>
         </div>

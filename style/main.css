@@ -46,6 +46,10 @@
 .t h4 span {
   font-weight: 600;
 }
+.t h5 {
+  font-size: 26px;
+  font-weight: bold;
+}
 .t h6 {
   font-size: 28px;
   font-weight: 200;
@@ -54,7 +58,6 @@
   font-style: italic;
 }
 .t p {
-  font-style: italic;
   color: white;
   font-size: 20px;
   font-weight: 300;
@@ -79,6 +82,62 @@
   transition: 0.2s;
   color: rgba(228, 228, 228, 0.91);
   background-color: #008440;
+}
+
+.slider {
+  position: relative;
+}
+.slider .slick-dots {
+  bottom: -35px;
+}
+.slider .slick-dots li button:before {
+  content: "";
+  border: 1px solid white;
+  border-radius: 100%;
+  transition: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #00B156;
+}
+.slider .slick-dots li .active:before {
+  transition: 0.2s;
+  background: #00B156;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.7);
+}
+.slider .arrow-slider {
+  border: 0;
+  outline: none;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  padding: 0 15px;
+  border-radius: 4px;
+  transition: 2s;
+  background-color: white;
+}
+.slider .arrow-slider i {
+  font-size: 20px;
+  transition: 0.2s;
+  color: black;
+}
+.slider .arrow-slider:hover {
+  transition: 2s;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.slider .arrow-slider:hover i {
+  transition: 0.2s;
+  color: #00B156;
+}
+.slider .prev-arrow {
+  z-index: 20;
+  left: -40px;
+}
+.slider .next-arrow {
+  right: -40px;
+  z-index: 20;
+}
+.slider .slick-slide {
+  border: 2px solid white;
+  margin: 0 10px;
 }
 
 @media only screen and (max-width: 1199px) {

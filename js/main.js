@@ -1,3 +1,21 @@
+$('.telegram').submit(function (e) {
+    e.preventDefault();
+    //const orderLoader = document.getElementById('orderLoaderId');
+    //orderLoader.classList.remove('d-none');
+    $.ajax({
+        type: 'POST',
+        url: '/ovitta/wp-content/themes/ovitta/api-telegram.php',
+        data: $(this).serialize()
+    }).done(() => {
+        window.location = '/';
+        //setTimeout(() => orderLoader.classList.add('d-none'), 0);
+    });
+});
+
+function onClickFormModal(title, idTitle) {
+    document.getElementById(idTitle).innerText = title;
+}
+
 $(".smooth-anchor").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
@@ -33,3 +51,46 @@ const handleClick = (e) => {
 };
 
 document.addEventListener('mousedown', handleClick, false);
+
+$(".slider").slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    adaptiveHeight: true,
+    prevArrow: '<button class="arrow-slider prev-arrow"><i class="fas fa-chevron-left"></i></button>',
+    nextArrow: '<button class="arrow-slider next-arrow"><i class="fas fa-chevron-right"></i></button>',
+    responsive: [
+        {
+            breakpoint: 1199,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+            }
+        }
+    ],
+});

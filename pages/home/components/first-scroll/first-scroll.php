@@ -10,7 +10,8 @@
         <div class="row justify-content-md-start">
             <div class="col-md-12 col-xl-5 pl-md-5">
                 <div class="t ml-md-5">
-                    <h1>Тренинг "Акцент" - трех дневный тренинг в закрытом формате изменит твое мышление!</h1>
+                    <h1>Тренинг "Акцент" - трех дневный тренинг в закрытом формате изменит твое мышление!
+                        <hr></h1>
                 </div>
             </div>
             <div class="col-md-12 pr-md-5 d-flex justify-content-md-end">

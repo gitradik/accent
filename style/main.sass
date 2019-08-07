@@ -47,6 +47,10 @@
     span
       font-weight: 600
 
+  h5
+    font-size: 26px
+    font-weight: bold
+
   h6
     font-size: 28px
     font-weight: 200
@@ -55,7 +59,6 @@
     font-style: italic
 
   p
-    font-style: italic
     color: white
     font-size: 20px
     font-weight: 300
@@ -79,5 +82,71 @@
       transition: .2s
       color: $text_button_color_hover
       background-color: $yellow_hover
+
+.slider
+  position: relative
+
+  .slick-dots
+    bottom: -35px
+
+    li
+
+      button
+
+        &:before
+          content: ''
+          border: 1px solid white
+          border-radius: 100%
+          transition: .2s
+          box-shadow: 0 2px 5px 0 rgba(0,0,0,.2)
+          background-color: $yellow_light
+
+      .active
+
+        &:before
+          transition: .2s
+          background: $yellow_light
+          box-shadow: 0 2px 5px 0 rgba(0,0,0,.7)
+
+  .arrow-slider
+    border: 0
+    outline: none
+    position: absolute
+    top: 0
+    height: 100%
+    padding: 0 15px
+    border-radius: 4px
+    transition: 2s
+    background-color: white
+
+    i
+      font-size: 20px
+      transition: .2s
+      color: black
+
+    &:hover
+      transition: 2s
+      background-color: rgba(0,0,0,.03)
+
+      i
+        transition: .2s
+        color: $yellow_light
+
+  .prev-arrow
+    z-index: 20
+    left: -40px
+
+  .next-arrow
+    right: -40px
+    z-index: 20
+
+
+  .slick-slide
+    border: 2px solid white
+    margin: 0 10px
+
+
+
+
 
 @import "main-media"

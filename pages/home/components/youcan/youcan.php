@@ -2,47 +2,48 @@
     <?= include 'youcan.css'; ?>
 </style>
 
-<div class="youcan">
+<div class="youcan" style="background-image: url('<?= get_template_directory_uri(); ?>/images/patt_diagonals.png')">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 pb-5">
+        <div class="row">
+            <div class="col-md-6 pb-5">
                 <div class="t">
-                    <h3>Ты сможешь:</h3>
+                    <h3>Результаты тренинга:</h3>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center">
+            <div class="col-md-4"></div>
+            <div class="col-sm-12 col-md-6 d-flex align-items-start justify-content-center">
                 <div class="youcan-card">
-                    <img src="<?= get_template_directory_uri(); ?>/images/youcan/Layer_4.svg">
+                    <img src="<?= get_template_directory_uri(); ?>/images/success.svg">
                     <div class="t">
-                        <h4>Подняться</h4>
-                        <p>над процессами</p>
+                        <h4>Эмоциональная устойчивость</h4>
+                        <p>Вы очищаетесь от накопившегося внутри негатива: старых обид, ненависти, чувства вины. Вам легко выстраивать коммуникацию с окружающими людьми. Вы спокойнее реагируете на внешние раздражители. Вас не выбивают из колеи мелкие неурядицы.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center">
+            <div class="col-sm-12 col-md-6 d-flex align-items-start justify-content-center">
                 <div class="youcan-card">
-                    <img src="<?= get_template_directory_uri(); ?>/images/youcan/1ed_brain.svg">
+                    <img src="<?= get_template_directory_uri(); ?>/images/success.svg">
                     <div class="t">
-                        <h4>Активизировать</h4>
-                        <p>мозг для перемен</p>
+                        <h4>Моральная и физическая выносливость</h4>
+                        <p>Вы легче переносите нагрузки, дольше не устаёте в повседневной жизни.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center">
+            <div class="col-sm-12 col-md-6 d-flex align-items-start justify-content-center">
                 <div class="youcan-card text-center">
-                    <img src="<?= get_template_directory_uri(); ?>/images/youcan/18ked_psychology.svg">
+                    <img src="<?= get_template_directory_uri(); ?>/images/success.svg">
                     <div class="t">
-                        <h4>Освободить</h4>
-                        <p>голову от мусора</p>
+                        <h4>Отношения</h4>
+                        <p>Вам удаётся завершить давние конфликты в семье. Выйти с позитивом из самых сложных ситуаций. Вы обнаруживаете в себе новые ресурсы для выхода из замкнутого круга. Ваша семейная жизнь обретает второе дыхание, вы находите понимание и поддержку там, где раньше и не мечтали.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center">
+            <div class="col-sm-12 col-md-6 d-flex align-items-start justify-content-center">
                 <div class="youcan-card">
-                    <img src="<?= get_template_directory_uri(); ?>/images/youcan/2web_target.svg">
+                    <img src="<?= get_template_directory_uri(); ?>/images/success.svg">
                     <div class="t">
-                        <h4>Восстановить</h4>
-                        <p>первоначальное видение</p>
+                        <h4>Уверенность в себе</h4>
+                        <p>Вы освобождаетесь от всего, что тянет вас назад. Вы обретаете внутреннюю гармонию и раскрепощённость. Ставите перед собой новые цели.Вы находите внутренний источник силы для постоянного движения вперед и обрете ясность мыслей.</p>
                     </div>
                 </div>
             </div>

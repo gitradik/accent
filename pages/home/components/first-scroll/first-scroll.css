@@ -12,6 +12,11 @@
   position: relative;
   z-index: 2;
 }
+.first-scroll .t hr {
+  height: 3px;
+  width: 100px;
+  background-color: #00B156;
+}
 .first-scroll .t p {
   font-style: inherit;
   font-family: "Roboto", sans-serif !important;
@@ -23,7 +28,13 @@
 .first-scroll .t-name h4 {
   color: white;
   font-size: 32px;
+  border-radius: 2px;
   font-weight: 500;
+  background-color: rgba(0, 177, 86, 0.2);
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.07);
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 5px;
 }
 .first-scroll .t-name h5 {
   color: white;

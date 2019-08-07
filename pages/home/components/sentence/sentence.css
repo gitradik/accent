@@ -1,0 +1,32 @@
+.sentence {
+  overflow: hidden;
+  position: relative;
+  padding-top: 60px;
+  background-color: rgba(232, 255, 230, 0.31);
+}
+.sentence img {
+  height: auto;
+  max-width: 100%;
+}
+.sentence .t {
+  margin-bottom: 50px;
+}
+.sentence .t p {
+  border: 1px solid white;
+  text-align: left;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-size: 28px;
+  font-weight: 300;
+  background-color: #00B156;
+  padding: 10px;
+  color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+  .sentence .t {
+    margin-bottom: 80px;
+  }
+}
+
+/*# sourceMappingURL=sentence.css.map */
