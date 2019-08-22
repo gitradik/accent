@@ -13,7 +13,20 @@
                     <p>© OVITTA Training Company</p>
                 </div>
             </div>
-
+            <div class="col-md-6">
+                <form class="telegram">
+                    <div class="t">
+                        <h4>Остались вопросы?</h4>
+                    </div>
+                    <input type="hidden" name="location" value="Aкцент => Футер">
+                    <input placeholder="Ваше Имя" name="name" type="text" required>
+                    <input placeholder="Ваш Email" name="email" type="email">
+                    <input class="input-mask-s" placeholder="Ваш Телефон" name="phone" type="tel" required>
+                    <div class="order">
+                        <button>Отправить</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </footer>

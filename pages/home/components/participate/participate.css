@@ -1,5 +1,6 @@
 .participate {
   padding: 60px 0;
+  position: relative;
   background-color: #f3f3f3;
   display: flex;
   align-items: center;
@@ -7,19 +8,27 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.participate .bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.participate .container {
+  position: relative;
+  z-index: 2;
+}
 .participate .part-card {
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
   padding: 20px 30px;
   border-radius: 4px;
+  height: 100%;
 }
 .participate .part-card h4 {
   text-align: center;
   font-size: 26px;
   margin-bottom: 25px;
-  color: #00B156;
+  color: black;
   padding: 10px 0;
-  background-color: rgba(0, 177, 86, 0.12);
+  background-color: #dd4838;
 }
 .participate .part-card p {
   border-bottom: 1px solid #f2f2f2;
@@ -31,7 +40,7 @@
   align-items: flex-start;
 }
 .participate .part-card p i {
-  color: #00B156;
+  color: #dd4838;
   margin-right: 8px;
 }
 .participate .t {

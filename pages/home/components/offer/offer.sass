@@ -1,0 +1,40 @@
+@import "../../../../style/data"
+
+.offer
+  overflow: hidden
+  position: relative
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+  .container
+    position: relative
+    z-index: 2
+
+  .bg
+    background-color: rgba(0,0,0,.5)
+
+  .t
+    padding: 150px 0
+
+    h3
+      color: white
+
+      span
+        font-weight: 900
+        display: inline-block
+        color: $yellow_light
+
+  .order
+
+    button
+      transition: .2s
+      background-color: $yellow_light
+
+      &:hover
+        transition: .2s
+        background-color: $yellow_hover
+
+
+
+@import "offer-media"

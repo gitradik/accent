@@ -13,10 +13,13 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form class="telegram">
+
+                <form class="telegram" method="POST">
                     <div class="t">
                         <p>Оставьте свои контактные<br> данные для обратной связи</p>
                     </div>
+                    <input type="hidden" name="tag_id" value="5d5d15fbb4173a000db5a4e0">
+                    <input type="hidden" name="location" id="formModalLocationId">
                     <input placeholder="Ваше Имя" name="name" type="text" required>
                     <input placeholder="Ваш Email" name="email" type="email">
                     <input class="input-mask-s" placeholder="Ваш Телефон" name="phone" type="tel" required>
@@ -24,7 +27,10 @@
                         <button>Отправить</button>
                     </div>
                 </form>
+
             </div>
         </div>
     </div>
 </div>
+
+

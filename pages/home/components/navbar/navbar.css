@@ -26,8 +26,8 @@
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
   transition: 0.2s;
-  color: #00B156;
-  border-color: rgba(0, 141, 71, 0.3);
+  color: #dd4838;
+  border-color: rgba(205, 81, 63, 0.71);
 }
 .navbar .navbar-nav .nav-order .nav-link {
   outline: none;
@@ -35,13 +35,13 @@
   border-radius: 3px;
   font-weight: 700;
   transition: 0.2s;
-  background-color: #00B156;
+  background-color: #dd4838;
   color: white;
 }
 .navbar .navbar-nav .nav-order .nav-link:hover {
   transition: 0.2s;
   color: rgba(228, 228, 228, 0.91);
-  background-color: #008440;
+  background-color: #b53d2f;
 }
 
 .navbar-in {
@@ -76,6 +76,9 @@
   }
 }
 @media only screen and (max-width: 991px) {
+  .navbar .navbar-brand img {
+    max-width: 100px;
+  }
   .navbar .navbar-nav .nav-item .nav-link {
     display: inline-block;
   }

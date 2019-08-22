@@ -7,7 +7,8 @@
         <img id="mainNavbarbrandId" src="<?= get_template_directory_uri(); ?>/pages/home/components/navbar/ovitta-logo-white.png" alt="ovitta-logo">
     </a>
     <button id="mainNavBarToggleId" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamListId" aria-controls="hamListId" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon" style="background-image: url('<?= get_template_directory_uri(); ?>/images/ham-menu.png')"></span>
+        <span class="navbar-toggler-icon" ></span>
+
     </button>
 
     <div class="collapse navbar-collapse" id="hamListId">
@@ -16,20 +17,20 @@
                 <a class="nav-link" href="/">Главная</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link smooth-anchor" href="#usefulId">Полезно</a>
+                <a class="nav-link smooth-anchor" href="#videoblogId">Отзывы</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link smooth-anchor" href="#videoinvId">Видео приглашение</a>
+                <a class="nav-link smooth-anchor" href="#youcanId">Результаты</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link smooth-anchor" href="#videoblogId">Видео блог</a>
+                <a class="nav-link smooth-anchor" href="#youwillgetId">Полезно</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link smooth-anchor" href="#footerId">Контакты</a>
             </li>
             <li class="nav-item nav-order">
                 <a href="#" class="nav-link" data-toggle="modal" data-target="#formModal"
-                    onclick="onClickFormModal('Заказать звонок', 'formModalLongTitle')"
+                    onclick="onClickFormModal('Заказать звонок', 'formModalLongTitle', 'Акцент => Шапка сайта', 'formModalLocationId')"
                 >Заказать звонок</a>
             </li>
         </ul>

@@ -6,6 +6,11 @@
     <div class="container">
          <div class="row">
              <div class="col-md-12">
+                 <div class="t">
+                    <h2>Отзывы о 3-х дневном тренинге <span>АКЦЕНТ</span>:</h2>
+                 </div>
+             </div>
+             <div class="col-md-12">
                  <div class="slider">
                      <div>
                          <div class="vid">

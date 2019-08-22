@@ -9,6 +9,8 @@
   background-position: center center
   display: flex
   align-items: center
+  padding-top: 100px
+  padding-bottom: 30px
 
   .ct
     position: relative
@@ -32,26 +34,41 @@
     display: flex
 
     h4
+      text-align: center
       color: white
-      font-size: 32px
+      font-size: 42px
       border-radius: 2px
       font-weight: 500
-      background-color: rgba(0, 177, 86, 0.2)
-      box-shadow: 0 0 10px 0 rgba(255,255,255,.07)
       display: inline-block
+      line-height: 52px
       padding: 15px
-      margin-bottom: 5px
+      background-color: rgba(221, 72, 56, 0.66)
+      box-shadow: 0 0 10px 0 rgba(255,255,255,.07)
+
+      span
+
 
     h5
       color: white
       font-size: 26px
       font-weight: 400
+      background-color: rgba(0,0,0,.4)
+      display: flex
+      justify-content: center
+      align-items: center
+      padding-left: 10px
+      padding-right: 10px
 
   .t-sub
     width: auto
+    position: relative
+    z-index: 1
 
     h3
       color: white
+
+      span
+        color: $yellow_light
 
     p
       color: white

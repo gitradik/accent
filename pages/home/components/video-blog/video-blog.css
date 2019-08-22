@@ -4,6 +4,12 @@
 .video-blog .t {
   margin-bottom: 25px;
 }
+.video-blog .t h2 {
+  color: black;
+}
+.video-blog .t h2 span {
+  color: #dd4838;
+}
 .video-blog .vid {
   border-radius: 4px;
   overflow: hidden;

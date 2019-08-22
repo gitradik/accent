@@ -3,9 +3,10 @@
 </style>
 
 <div class="participate" style="background-image: url('<?= get_template_directory_uri(); ?>/images/photo_2019-08-05_09-16-31.jpg')">
+    <div class="bg"></div>
     <div class="container">
         <div class="row">
-           <div class="col-lg-4">
+           <div class="col-lg-4 pb-2 pb-lg-0">
                 <div class="part-card">
                     <h4>День 1</h4>
                     <p><i class="far fa-hand-point-right"></i>Знакомство</p>
@@ -16,7 +17,7 @@
                 </div>
            </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 pb-2 pb-lg-0">
                 <div class="part-card">
                     <h4>День 2</h4>
                     <p><i class="far fa-hand-point-right"></i>Блок теории (обратная связь)</p>
@@ -28,7 +29,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 pb-2 pb-lg-0">
                 <div class="part-card">
                     <h4>День 3</h4>
                     <p><i class="far fa-hand-point-right"></i>Решение вашей проблемы</p>

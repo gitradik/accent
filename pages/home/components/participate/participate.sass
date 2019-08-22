@@ -2,6 +2,7 @@
 
 .participate
   padding: 60px 0
+  position: relative
   background-color: #f3f3f3
   display: flex
   align-items: center
@@ -9,19 +10,27 @@
   background-repeat: no-repeat
   background-size: cover
 
+  .bg
+    background-color: rgba(0,0,0,.5)
+
+  .container
+    position: relative
+    z-index: 2
+
   .part-card
     background-color: rgba(255, 255, 255, 0.9)
     box-shadow: 0 2px 5px rgba(0,0,0,0.25)
     padding: 20px 30px
     border-radius: 4px
+    height: 100%
 
     h4
       text-align: center
       font-size: 26px
       margin-bottom: 25px
-      color: $yellow_light
+      color: black
       padding: 10px 0
-      background-color: rgba(0, 177, 86, 0.12)
+      background-color: $yellow_light
 
     p
       border-bottom: 1px solid #f2f2f2

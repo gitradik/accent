@@ -2,7 +2,7 @@
     <?= include 'youwillget.css'; ?>
 </style>
 
-<div class="youwillget" style="background-image: url('<?= get_template_directory_uri(); ?>/images/subtle_grunge.png')">
+<div id="youwillgetId" class="youwillget" style="background-image: url('<?= get_template_directory_uri(); ?>/images/subtle_grunge.png')">
     <div class="container">
         <div class="row">
             <div class="col-md-6 pb-5">
@@ -13,7 +13,7 @@
             <div class="col-md-4"></div>
             <div class="col-lg-6 d-flex align-items-center justify-content-center">
                 <div class="youcan-card">
-                    <img src="<?= get_template_directory_uri(); ?>/images/racing.svg">
+                    <img src="<?= get_template_directory_uri(); ?>/images/polza/effective-icon.png">
                     <div class="t">
                         <h4>Быстрые результаты</h4>
                         <p>Тренер владеет годами апробированной методикой, за счет которой вы получаете обратную связь из внешнего мира – начинаете видеть себя со стороны. Ситуации, смоделированные на тренинге, дают вам возможность мгновенно понимать, что у вас происходит в жизни, понимая ситуацию и видя решения.</p>
@@ -22,7 +22,7 @@
             </div>
             <div class="col-lg-6 d-flex align-items-center justify-content-center">
                 <div class="youcan-card">
-                    <img src="<?= get_template_directory_uri(); ?>/images/line-graph.svg">
+                    <img src="<?= get_template_directory_uri(); ?>/images/polza/316759-200.png">
                     <div class="t">
                         <h4>Эффективные решения</h4>
                         <p>Пройдя тренинг, вы получаете возможность прекратить безрезультатные попытки решить проблемы, которые казались нерешаемыми. Вы находите неожиданные для себя выходы из затруднительных положений, прекращаете тратить силы и энергию на внутреннее сопротивление, переживаете состояние принятия, удивляясь, как просто можно достигать результатов без борьбы.</p>
