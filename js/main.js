@@ -12,7 +12,27 @@
     });
 });*/
 
+function onClickRadio(messanger) {
+    var messangerObj = document.getElementById('messangerId');
+    switch (messanger) {
+        case 'facebook': {
+            messangerObj.href = 'https://m.me/1666774366666672?ref=nlS4luPur00gNRXs_';
+            break;
+        }
+        case 'telegram': {
+            messangerObj.href = 'https://telegram.me/NikolaySapsan_Bot?start=5d5d8455ecde6c0010c75edc';
+            break;
+        }
+        case 'viber': {
+            messangerObj.href = 'viber://pa?chatURI=sapsan&context=5d5d8455ecde6c0010c75edc';
+            break;
+        }
+    }
+}
+
 $('.telegram').submit(function (e) {
+    var messangerObj = document.getElementById('messangerId');
+    messangerObj.click();
     e.preventDefault();
     $.ajax({
         type : 'POST',
@@ -20,6 +40,7 @@ $('.telegram').submit(function (e) {
         data : $(this).serialize(),
         dataType : 'json',
         success : function (result) {
+
             $.ajax({
                 type : 'POST',
                 url : 'https://api.leeloo.ai/api/v1/accounts',
@@ -35,7 +56,8 @@ $('.telegram').submit(function (e) {
                 success : function (res) {
 
                     var put_url = 'https://api.leeloo.ai/api/v1/accounts/' + res.data.id + '/add-tag';
-                    console.log(put_url);
+                    var put_url_comment = 'https://api.leeloo.ai/api/v1/accounts/' + res.data.id + '/set-comment';
+
                     $.ajax({
                         type : 'PUT',
                         url : put_url,
@@ -47,22 +69,35 @@ $('.telegram').submit(function (e) {
                         },
                         dataType : 'json',
                         success : function (res) {
-
-                            console.log(res);
-
                         },
                         error : function (err) {
-                            console.log(err);
                         }
                     });
+
+                    $.ajax({
+                        type : 'PUT',
+                        url : put_url_comment,
+                        data: {
+                            comment: result['comment'],
+                        },
+                        headers: {
+                            "X-Leeloo-AuthToken":"bpskyolj9z1te934vm0an2cko6j9x6z7vwbplfihixwmw3putgccxxts5lbds01blw3lpbn8v7pkutf08szobsm578uy3er9tmme",
+                        },
+                        dataType : 'json',
+                        success : function (res) {
+                            window.location = 'done';
+                        },
+                        error : function (err) {
+                        }
+                    });
+
                 },
                 error : function () {
-                    alert("error inner");
                 }
             });
+
         },
         error : function () {
-            alert("error outer");
         }
     })
 });

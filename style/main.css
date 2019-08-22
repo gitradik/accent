@@ -83,7 +83,7 @@
   right: -100px;
   top: -70px;
 }
-.order button {
+.order button, .order .btn-ord {
   outline: none;
   text-transform: uppercase;
   border: none;
@@ -96,7 +96,7 @@
   background-color: #dd4838;
   color: white;
 }
-.order button:hover {
+.order button:hover, .order .btn-ord:hover {
   transition: 0.2s;
   color: rgba(228, 228, 228, 0.91);
   background-color: #b53d2f;

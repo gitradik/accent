@@ -42,5 +42,10 @@
 .form-modal form .order {
   padding-top: 20px;
 }
+.form-modal form .order .btn-ord {
+  margin-bottom: -20px;
+  padding: 20px 30px;
+  font-size: 16px;
+}
 
 /*# sourceMappingURL=form-modal.css.map */

@@ -7,6 +7,16 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.done .t h4 {
+  font-size: 20px;
+  color: white;
+  font-family: "TT Norms", Arial, sans-serif;
+  margin-bottom: 25px;
+}
+.done iframe {
+  min-height: 315px;
+  min-width: 100%;
+}
 .done .time-back {
   display: flex;
   align-items: center;
@@ -35,6 +45,28 @@
   letter-spacing: 1px;
   margin-bottom: 15px;
   font-family: "TT Norms", Arial, sans-serif;
+}
+.done .t-done {
+  text-align: left;
+}
+.done .t-done h5 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "TT Norms", Arial, sans-serif;
+  color: white;
+}
+.done .t-done ul {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.done .t-done ul li {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.done .t-done ul li:last-child {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=done.css.map */

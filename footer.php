@@ -6,11 +6,11 @@
 <script src="<?= get_template_directory_uri(); ?>/node_modules/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 <script src="<?= get_template_directory_uri(); ?>/node_modules/inputmask/dist/jquery.inputmask.bundle.js"></script>
 
-<script src="<?= get_template_directory_uri(); ?>/js/inp-mask.js?v=1.2"></script>
-<script src="<?= get_template_directory_uri(); ?>/js/main.js?v=1.2"></script>
-<script src="<?= get_template_directory_uri(); ?>/pages/home/components/navbar/navbar.js?v=1.2"></script>
-<script src="<?= get_template_directory_uri(); ?>/pages/home/components/form-modal/form-modal.js?v=1.2"></script>
-<script src="<?= get_template_directory_uri(); ?>/pages/home/components/leelooai/leelooai.js?v=1.2"></script>
+<script src="<?= get_template_directory_uri(); ?>/js/inp-mask.js?v=1.3"></script>
+<script src="<?= get_template_directory_uri(); ?>/js/main.js?v=1.3"></script>
+<script src="<?= get_template_directory_uri(); ?>/pages/home/components/navbar/navbar.js?v=1.3"></script>
+<script src="<?= get_template_directory_uri(); ?>/pages/home/components/form-modal/form-modal.js?v=1.3"></script>
+<script src="<?= get_template_directory_uri(); ?>/pages/home/components/leelooai/leelooai.js?v=1.3"></script>
 
 </body>
 </html>
